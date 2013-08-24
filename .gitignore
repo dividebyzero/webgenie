@@ -1,4 +1,8 @@
 #eclipse stuff
 .metadata
-.gen
-.bin
+bin/
+gen/
+.classpath
+.project
+.settings/
+project.properties
