@@ -6,6 +6,6 @@ public:
 	PiCalc();
 	~PiCalc();
 
-	float computePie();
+	double computePi();
 };
 #endif //define

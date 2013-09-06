@@ -1,14 +1,21 @@
 <html>
 <head>
-<script>
+<script type="text/javascript" language="javascript">
 function getPie(){
-	alert("no pie");
+	var pi = jsCakePan.bakePi();
+	alert("pi="+pi);
 }
 </script>
 </head>
 <body>
-<div onClick="getPie()" style="background:red" />
-
+<form>
+<input type="button" onclick="getPie()" value="Bake Pi"  >
+</button>
+</form>
+<BR>
+<div id="result">
+&nbsp;
+</div>
 
 </body>
 </html>

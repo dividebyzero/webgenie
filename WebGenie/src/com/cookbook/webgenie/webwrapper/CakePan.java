@@ -4,9 +4,8 @@ package com.cookbook.webgenie.webwrapper;
 public class CakePan {
 
 	static{
-	//	System.loadLibrary("libName");
+		System.loadLibrary("mypie");
 	}
-	
 	
 	public CakePan(){
 		//empty c'tor
@@ -14,11 +13,9 @@ public class CakePan {
 	
 	@android.webkit.JavascriptInterface
 	public double bakePi(){
-		//FIXME:
-		return 3.147;
-		//return nBakePi();
+		return nBakePi();
 	}
 	
-	//private native double nBakePi();
+	private native double nBakePi();
 	
 }
